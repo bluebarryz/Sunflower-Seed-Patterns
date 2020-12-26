@@ -27,13 +27,8 @@ class Sunflower {
     fill(168, 143, 50);
     noStroke();
     circle(seedX, seedY, 10);    
-    currAngle += turnAngle;    
-    
-    if (turnSize == 0.61803)
-      currRadius = 7 * sqrt( seedCount ) ;
-    else
-      currRadius = 7*sqrt(2*seedCount);    
-    
+    currAngle += turnAngle;       
+    currRadius = 7 * sqrt( seedCount ) ;          
     seedCount ++;
   }
   
