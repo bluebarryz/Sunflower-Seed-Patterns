@@ -20,8 +20,12 @@ Here is the outcome of rotating by 1/3 of a full turn before sprouting a new see
 <h3>Rotating by 1/2.01 of a full turn</h3>
 <img src="readme/1_201 turn.gif" alt="1/2.01 turn" width="250" height="250">  
 
+<p>You may have noticed that the number of spiral arms in the seed pattern corresponds to the denominator of the turn size. This is clear for the turn sizes of 1/3, and 1/10, as you can clearly see their results of 3 arms and 10 arms, respectively. But for the latter two turn sizes, 5/6.02, 1/2.01, this is less clear, but still noticeable, since the denominators are close to an integer, but not quite an integer. In any case, it seems that the denominator of the turn size corresponds to the number of spiral arms. And it seems like spiral arms tend to waste a lot of space. So we want to avoid patterns with spiral arms.</p>
+
 <h3>Rotating by &#8730;2/2 of a full turn</h3>
 <img src="readme/sqrt(2)_2 turn.gif" alt="sqrt(2)/2 turn" width="250" height="250">
 
 <h3>Rotating by 1/<i>e</i> of a full turn</h3>
 <img src="readme/1_e turn.gif" alt="1/2 turn" width="250" height="250">
+
+<p>These two turn sizes are both irrational, meaning they can't be expressed as an integer over another integer (or an integer over an almost-integer, like 5/6.02 or 1/2.01). So irrational numbers can't be expressed as fractions, so they don't have a denominator, and so irrational tend to not create any spiral arms (they do, but, as you can see from th GIFs, they aren't well defined.</p>
