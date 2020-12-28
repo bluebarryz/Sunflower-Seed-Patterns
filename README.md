@@ -1,5 +1,5 @@
 # Sunflower-Seed-Patterns
-
+<p><i>Sunflower-Seed-Patterns</i> is a program that simulates the growth of sunflower seeds. It allows the user to set the angle of rotation between new seeds, which results in different patterns.</p>
 <h2>Why are sunflower seeds arranged the way they are?</h2>
 <img src="readme/seedsPhoto.jfif" alt="seedsPhoto" width="1200" height="600">
 <p style="font-size: 8;font-style: italic;">Image credit: "Sunflower Seeds"</a><span> by <a href="https://www.flickr.com/photos/84202567@N00">dogbomb</a></span> is licensed under <a href="https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY 2.0</a><a href="https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;"></a></p>
@@ -26,10 +26,21 @@ Here is the outcome of rotating by 1/3 of a full turn before sprouting a new see
 <img src="readme/sqrt(2)_2 turn.gif" alt="sqrt(2)/2 turn" width="250" height="250">
 
 <h3>Rotating by 1/<i>e</i> of a full turn</h3>
-<img src="readme/1_e turn.gif" alt="1/2 turn" width="250" height="250">
+<img src="readme/1_e turn.gif" alt="1/e turn" width="250" height="250">
 
-<p>These two turn sizes are both irrational, meaning they can't be expressed as an integer over another integer (or an integer over an almost-integer, like 5/6.02 or 1/2.01). So irrational numbers can't be expressed as fractions, so they don't have a denominator. As a reuslt, irrational turn sizes don't create well-defined spiral arms like 1/10 and 1/3, or even like 5/6.02, or 1/2.02. But they still create <i>some</i> kind of spiral arms. Why? Well, both of these irrational turn sizes can be well-approximated by a rational number. &#8730;2/2 can be well approximated by 7071/10000. So there is some semblance of spiral arms in the pattern. Likewise, 1/<i>e</i> can be well approximated by 1839/5000. So &#8730;2/2 and 1/<i>e</i> are irrational, just not <i>irrational enough</i>. And so the patterns they create are very space-efficient, but not perfect, as they still have spiral arms that create little pockets of wasted space.</p>
+<p>These two turn sizes are both irrational, meaning they can't be expressed as an integer over another integer (or an integer over an almost-integer, like 5/6.02 or 1/2.01). So irrational numbers can't be expressed as fractions, so they don't have a denominator. As a reuslt, irrational turn sizes don't create well-defined spiral arms like 1/10 and 1/3, or even like 5/6.02, or 1/2.02. But they still create <i>some</i> kind of spiral arms. Why? Well, both of these irrational turn sizes can be well-approximated by a rational number. &#8730;2/2 can be well approximated by 7071/10000. Likewise, 1/<i>e</i> can be well approximated by 1839/5000. Thus, both of these turn sizes result in patterns with at least some semblance of spiral arms. The patterns are very space-efficient (certainly better the ones created by turn sizes of 1/10 and 1/3), but not perfect, as they still have spiral arms that create little pockets of wasted space.</p>
 
-<p> To get the perfect turn size to create the perfect, most space-efficient pattern, we need the <i>most irrational</i> number, a number that can't be well-approximated by <i>any</i> fraction.
+<p> What can be learned from this is that &#8730;2/2 and 1/<i>e</i> are irrational, just not <i>irrational enough</i>.</p>
 
+<p> To get the perfect turn size to create the perfect, most space-efficient pattern, we need the <i>most irrational</i> number, a number that can't be well-approximated by <i>any</i> fraction. </p>
+
+<h2> Finding the <i>most irrational</i> number </h2>
+<p>The following is called a <i>continued fraction</i>:</p>
+<img src="readme/continued frac.jpg" alt="continued fraction" width="400" height="240">
+<p>What's special about this particular continued fraction is that we can't terminte the fraction at any point and get a good aproximation for &Phi; (no matter where you "chop off" the fraction, the bit that's chopped off is never insignificant enough to make your approximation good. As a reuslt, we can't get a good rational approximation for the number &Phi;. </p>
+
+<p>Solving for &Phi;, we get: </p>
+<img src="readme/phi.png" alt="phi" width="400" height="380">
+<p> And now, as you can see,  turn size of &Phi; (0.61803) gives us that "perfect" pattern. </p>
+<img src="readme/phi turn.gif" alt="phi turn" width="400" height="380">
 
