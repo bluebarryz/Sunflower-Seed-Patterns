@@ -33,7 +33,7 @@
 
 <img src="readme/1_e turn.gif" alt="1/e turn" width="250" height="250">
 
-<p>These two turn sizes are both irrational, meaning they can't be expressed as an integer over another integer (or an integer over an almost-integer, like 5/6.02 or 1/2.01). Since irrational numbers can't be expressed as fractions, they don't have a denominator. As a reuslt, irrational turn sizes don't create well-defined spiral arms like 1/10 and 1/3, or even like 5/6.02, or 1/2.02. But they still create <i>some</i> kind of spiral arms. Why? Well, both of these irrational turn sizes can be well-approximated by a rational number. &#8730;2/2 can be well-approximated by 7071/10000. Likewise, 1/<i>e</i> can be well-approximated by 1839/5000. Thus, both of these turn sizes result in patterns with at least some semblance to spiral arms. The patterns are very space-efficient (certainly better the ones created by turn sizes of 1/10 and 1/3), but not perfect, as they still have spiral arms that create little pockets of wasted space.</p>
+<p>These two turn sizes are both irrational, meaning they can't be expressed as an integer over another integer (or an integer over an almost-integer, like 5/6.02 or 1/2.01). Since irrational numbers can't be expressed as fractions, we can't say that the number of spiral arms corresponds to the denominator of the turn size. And you can observe this visually too as the turn sizes &#8730;2/2 and 1/<i>e</i> don't create well-defined spiral arms like 1/10 and 1/3, or even like 5/6.02, or 1/2.02. But they still create <i>some</i> kind of spiral arms. Why? Well, both of these irrational turn sizes can be well-approximated by a rational number. &#8730;2/2 can be well-approximated by 7071/10000. Likewise, 1/<i>e</i> can be well-approximated by 1839/5000. Thus, both of these turn sizes result in patterns with spiral arms, just not spiral arms you can easily see. The patterns are very space-efficient (certainly better the ones created by turn sizes of 1/10 and 1/3), but not perfect, as they still have spiral arms that create little pockets of wasted space.</p>
 
 <p> What can be learned from this is that &#8730;2/2 and 1/<i>e</i> are irrational, just not <i>irrational enough</i>.</p>
 
@@ -46,7 +46,7 @@
 
 <p>Solving for &Phi;, we get: </p>
 <img src="readme/phi.png" alt="phi" width="400" height="380">
-<p> And now, as you can see,  turn size of &Phi; (0.61803) gives us that "perfect" pattern. </p>
+<p> And now, as you can see, a turn size of &Phi; (0.61803) gives us that "perfect" pattern. </p>
 <img src="readme/phi turn.gif" alt="phi turn" width="400" height="380">
 
 <h2> Now try the program yourself! </h2>
