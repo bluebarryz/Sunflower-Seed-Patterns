@@ -56,3 +56,5 @@
 <p> And now, as you can see, a turn size of &Phi; (0.61803) gives us that "perfect" pattern. </p>
 <img src="readme/phi turn.gif" alt="phi turn" width="400" height="380">
 
+<h2> Now try the program yourself! </h2>
+
