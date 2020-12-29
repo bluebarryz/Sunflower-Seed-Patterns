@@ -47,14 +47,12 @@
 <h2> Finding the <i>most irrational</i> number </h2>
 <p>The following is called a <i>continued fraction</i>:</p>
 <img src="readme/continued frac.jpg" alt="continued fraction" width="400" height="240">
-<p>What's special about this particular continued fraction is that the only way we can terminate the fraction and get a good rational aproximation for &Phi; is by going way, way down the fraction such that the part we "chop off" becomes smaller and smaller. If we chop off the fraction earlier, such that the denominator of our approximation is smaller, our approximation is going to be bad, since the part we're chopping off is significant. </p>
-<img src= "readme/144over89.png" alt="144over89" width=400 height=210>
-<p>As you can see, &Phi; is well-approximated by 144/89 (which are actually consecutive numbers in the Fibonacci sequence). But there are better approximations if you go further down the continued fraction. So the better the approximation gets, the larger the denominator of the approximation will get, which means the seed pattern created by a turn size equal to the approximation is going to have lots and lots of spiral arms. And as we saw with, the pattern for  &#8730;2/2, lots and lots of spiral arms are very difficult to discern and save a ton of space.
+<p>What's special about this particular continued fraction is that it converges towards the value of &Phi; (the farther down you go, the closer the value of the continued fraction gets to &Phi;). Thus, we can't get a good rational approximation of &Phi; early on in the continued fraction, because if we cut off the fraction early on, the part we would be chopping off would still be significant, making our approximation bad. That means that a good approximation of &Phi; will have a big denominator. An example is shown below:</p>
+<img src= "readme/144over89.png" alt="144over89" width=400 height=190>
+<p>As you can see, &Phi; is well-approximated by 144/89 (which are actually consecutive numbers in the Fibonacci sequence). But the approximation gets better and better as you go further down the continued fraction. So the better the approximation gets, the larger the denominator of the approximation will get, which means the seed pattern created by a turn size equal to the approximation is going to have lots and lots of spiral arms. And as we saw with, the pattern for  &#8730;2/2, lots and lots of spiral arms are very difficult to discern and save a ton of space.
 
 <p>Solving for &Phi;, we get: </p>
 <img src="readme/phi.png" alt="phi" width="400" height="380">
 <p> And now, as you can see, a turn size of &Phi; (0.61803) gives us that "perfect" pattern. </p>
 <img src="readme/phi turn.gif" alt="phi turn" width="400" height="380">
-
-<h2> Now try the program yourself! </h2>
 
