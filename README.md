@@ -48,7 +48,7 @@
 <p>The following is called a <i>continued fraction</i>:</p>
 <img src="readme/continued frac.jpg" alt="continued fraction" width="400" height="240">
 <p>What's special about this particular continued fraction is that it converges towards the value of &Phi; (the farther down you go, the closer the value of the continued fraction gets to &Phi;). Thus, we can't get a good rational approximation of &Phi; early on in the continued fraction, because if we cut off the fraction early on, the part we would be chopping off would still be significant, making our approximation bad. That means that a good approximation of &Phi; will have a big denominator. An example is shown below:</p>
-<img src= "readme/144over89.png" alt="144over89" width=400 height=190>
+<img src= "readme/144over89.png" alt="144over89" width=650 height=250>
 <p>As you can see, &Phi; is well-approximated by 144/89 (which are actually consecutive numbers in the Fibonacci sequence). But the approximation gets better and better as you go further down the continued fraction. So the better the approximation gets, the larger the denominator of the approximation will get, which means the seed pattern created by a turn size equal to the approximation is going to have lots and lots of spiral arms. And as we saw with the pattern for  &#8730;2/2, lots and lots of spiral arms are very difficult to discern and save a ton of space.
 
 <p>Solving for &Phi;, we get: </p>
